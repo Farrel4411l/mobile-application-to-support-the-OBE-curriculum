@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7FB">
+    android:background="?android:attr/colorBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Cek Lokasi Kehadiran"
+            app:title="@string/ui_title_cek_lokasi_kehadiran_103"
             app:titleTextColor="@android:color/white"
             app:navigationIconTint="@android:color/white" />
     </com.google.android.material.appbar.AppBarLayout>
@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Klik tombol di bawah untuk melacak lokasi Anda saat ini. Kami memerlukan izin lokasi untuk fitur ini."
+            android:text="@string/ui_klik_tombol_di_bawah_untuk_mel_1"
             android:textAlignment="center"
             android:textSize="16sp"
             android:layout_marginBottom="24dp"/>
@@ -46,7 +46,7 @@
             android:id="@+id/btnGetLocation"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:text="Dapatkan Lokasi Terkini"
+            android:text="@string/ui_dapatkan_lokasi_terkini_2"
             android:textSize="16sp"
             android:layout_marginBottom="32dp" />
 
@@ -65,7 +65,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Kordinat Persis:"
+                    android:text="@string/ui_kordinat_persis_3"
                     android:textStyle="bold"
                     android:textSize="16sp"
                     android:layout_marginBottom="8dp"/>
@@ -74,8 +74,8 @@
                     android:id="@+id/tvCoordinate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Latitude: -\nLongitude: -"
-                    android:textColor="#333333"
+                    android:text="@string/ui_latitude_nlongitude_4"
+                    android:textColor="?attr/colorOnSurface"
                     android:textSize="18sp"
                     android:textIsSelectable="true"/>
             </LinearLayout>

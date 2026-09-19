@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7FB">
+    android:background="?android:attr/colorBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:title="Detail Mata Kuliah">
+            app:title="@string/ui_title_detail_mata_kuliah_106">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -63,8 +63,8 @@
                         android:id="@+id/tvDetailNamaMk"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Nama Mata Kuliah"
-                        android:textColor="#172033"
+                        android:text="@string/ui_nama_mata_kuliah_19"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="22sp"
                         android:textStyle="bold" />
 
@@ -73,7 +73,7 @@
                         android:layout_height="1dp"
                         android:layout_marginTop="12dp"
                         android:layout_marginBottom="12dp"
-                        android:background="#E0E0E0" />
+                        android:background="?attr/colorOutlineVariant" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -89,15 +89,15 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Kode MK"
-                                android:textColor="#667085"
+                                android:text="@string/ui_kode_mk_20"
+                                android:textColor="?attr/colorOnSurfaceVariant"
                                 android:textSize="12sp" />
 
                             <TextView
                                 android:id="@+id/tvDetailKodeMk"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="IF001"
+                                android:text="@string/ui_if001_21"
                                 android:textColor="?attr/colorPrimary"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
@@ -112,8 +112,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="SKS"
-                                android:textColor="#667085"
+                                android:text="@string/ui_sks_22"
+                                android:textColor="?attr/colorOnSurfaceVariant"
                                 android:textSize="12sp" />
 
                             <TextView
@@ -121,7 +121,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="3"
-                                android:textColor="#172033"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -135,8 +135,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Semester"
-                                android:textColor="#667085"
+                                android:text="@string/ui_semester_23"
+                                android:textColor="?attr/colorOnSurfaceVariant"
                                 android:textSize="12sp" />
 
                             <TextView
@@ -144,7 +144,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="5"
-                                android:textColor="#172033"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -156,8 +156,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:text="Daftar CPMK (Capaian Pembelajaran Mata Kuliah)"
-                android:textColor="#172033"
+                android:text="@string/ui_daftar_cpmk_capaian_pembelajar_24"
+                android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -174,9 +174,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Tidak ada data CPMK untuk Mata Kuliah ini."
+                android:text="@string/ui_tidak_ada_data_cpmk_untuk_mata_25"
                 android:textAlignment="center"
-                android:textColor="#667085"
+                android:textColor="?attr/colorOnSurfaceVariant"
                 android:visibility="gone" />
 
             <androidx.recyclerview.widget.RecyclerView

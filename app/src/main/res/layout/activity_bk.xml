@@ -5,7 +5,7 @@
     android:id="@+id/mainBk"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7FB">
+    android:background="?android:attr/colorBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarBk"
@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Daftar Bahan Kajian"
+            app:title="@string/ui_title_daftar_bahan_kajian_101"
             app:titleTextColor="@android:color/white"
             app:navigationIconTint="@android:color/white" />
     </com.google.android.material.appbar.AppBarLayout>
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:textAlignment="center"
-        android:textColor="#667085"
+        android:textColor="?attr/colorOnSurfaceVariant"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@id/appBarBk" />
 

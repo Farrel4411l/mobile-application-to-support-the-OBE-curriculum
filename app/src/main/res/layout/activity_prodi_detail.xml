@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7FB">
+    android:background="?android:attr/colorBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Detail Program Studi"
+            app:title="@string/ui_title_detail_program_studi_109"
             app:titleTextColor="@android:color/white"
             app:navigationIconTint="@android:color/white"
             app:layout_scrollFlags="scroll|enterAlways" />
@@ -31,7 +31,7 @@
                 android:id="@+id/tvDetailNamaProdi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nama Prodi"
+                android:text="@string/ui_nama_prodi_29"
                 android:textColor="@android:color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />

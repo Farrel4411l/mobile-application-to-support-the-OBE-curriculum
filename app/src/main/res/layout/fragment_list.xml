@@ -19,9 +19,9 @@
         android:id="@+id/tvEmpty"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tidak ada data."
+        android:text="@string/ui_tidak_ada_data_36"
         android:textAlignment="center"
-        android:textColor="#667085"
+        android:textColor="?attr/colorOnSurfaceVariant"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

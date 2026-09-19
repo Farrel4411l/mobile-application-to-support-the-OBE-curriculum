@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7FB"
+    android:background="?android:attr/colorBackground"
     tools:context=".ui.prodi.ProdiActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Data Program Studi"
+            app:title="@string/ui_title_data_program_studi_108"
             app:titleTextColor="@android:color/white"
             app:navigationIconTint="@android:color/white" />
 

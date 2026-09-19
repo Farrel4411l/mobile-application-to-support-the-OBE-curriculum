@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7FB">
+    android:background="?android:attr/colorBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Pemetaan (Mapping)"
+            app:title="@string/ui_title_pemetaan_mapping_104"
             app:titleTextColor="@android:color/white"
             app:navigationIconTint="@android:color/white" />
 
@@ -31,7 +31,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pilih Jenis Pemetaan"
+            android:text="@string/ui_pilih_jenis_pemetaan_16"
             android:textStyle="bold"
             android:textSize="16sp"
             android:layout_marginBottom="8dp"/>
@@ -47,7 +47,7 @@
             android:id="@+id/btnLoadMapping"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tampilkan Data Pemetaan" />
+            android:text="@string/ui_tampilkan_data_pemetaan_17" />
 
         <ProgressBar
             android:id="@+id/progressBarMapping"
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:textAlignment="center"
-            android:textColor="#667085" />
+            android:textColor="?attr/colorOnSurfaceVariant" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvMapping"

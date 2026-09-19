@@ -26,10 +26,10 @@
                 android:id="@+id/tvAsesmenNim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="20260001"
+                android:text="@string/ui_20260001_37"
                 android:textColor="?attr/colorPrimary"
                 android:textStyle="bold"
-                android:background="#EAF2FF"
+                android:background="@drawable/bg_pill"
                 android:paddingHorizontal="8dp"
                 android:paddingVertical="4dp" />
                 
@@ -42,7 +42,7 @@
                 android:id="@+id/tvAsesmenJenis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tugas"
+                android:text="@string/ui_tugas_38"
                 android:textColor="#F57C00"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -55,20 +55,20 @@
             android:id="@+id/tvAsesmenNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nama Mahasiswa"
+            android:text="@string/ui_nama_mahasiswa_39"
             android:textSize="16sp"
             android:textStyle="bold"
             android:layout_marginTop="12dp"
-            android:textColor="#172033" />
+            android:textColor="?attr/colorOnSurface" />
             
         <TextView
             android:id="@+id/tvAsesmenBobot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bobot CPL: 20%"
+            android:text="@string/ui_bobot_cpl_20_40"
             android:textSize="14sp"
             android:layout_marginTop="8dp"
-            android:textColor="#667085" />
+            android:textColor="?attr/colorOnSurfaceVariant" />
 
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

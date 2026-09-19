@@ -26,10 +26,10 @@
                 android:id="@+id/tvRtmBentuk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bentuk Tugas"
+                android:text="@string/ui_bentuk_tugas_66"
                 android:textColor="?attr/colorPrimary"
                 android:textStyle="bold"
-                android:background="#EAF2FF"
+                android:background="@drawable/bg_pill"
                 android:paddingHorizontal="8dp"
                 android:paddingVertical="4dp" />
                 
@@ -42,7 +42,7 @@
                 android:id="@+id/tvRtmWaktu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2 Minggu"
+                android:text="@string/ui_2_minggu_67"
                 android:textColor="#388E3C"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -55,17 +55,17 @@
             android:id="@+id/tvRtmJudul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Judul Tugas"
+            android:text="@string/ui_judul_tugas_68"
             android:textSize="16sp"
             android:textStyle="bold"
             android:layout_marginTop="12dp"
-            android:textColor="#172033" />
+            android:textColor="?attr/colorOnSurface" />
             
         <TextView
             android:id="@+id/tvRtmDesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Deskripsi tugas..."
+            android:text="@string/ui_deskripsi_tugas_69"
             android:textSize="14sp"
             android:layout_marginTop="8dp"
             android:textColor="#444" />

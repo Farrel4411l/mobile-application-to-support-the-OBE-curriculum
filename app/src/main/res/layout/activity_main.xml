@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7FB"
+    android:background="?android:attr/colorBackground"
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -40,7 +40,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Manajemen Kurikulum"
+                    android:text="@string/ui_manajemen_kurikulum_5"
                     android:textColor="#FFFFFF"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -48,7 +48,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sistem Berbasis OBE"
+                    android:text="@string/ui_sistem_berbasis_obe_6"
                     android:textColor="#E0E0E0"
                     android:textSize="16sp"
                     android:layout_marginTop="4dp"/>
@@ -87,7 +87,10 @@
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:strokeWidth="0dp">
+                app:strokeWidth="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
                 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -99,13 +102,13 @@
                     <ImageView
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:src="@android:drawable/ic_menu_preferences"
+                        android:src="@drawable/ic_dashboard_prodi"
                         app:tint="?attr/colorPrimary" />
                         
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Prodi &amp; CPL"
+                        android:text="@string/ui_prodi_amp_cpl_7"
                         android:textStyle="bold"
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"/>
@@ -121,7 +124,10 @@
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:strokeWidth="0dp">
+                app:strokeWidth="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
                 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -133,13 +139,13 @@
                     <ImageView
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:src="@android:drawable/ic_menu_agenda"
+                        android:src="@drawable/ic_dashboard_book"
                         app:tint="?attr/colorPrimary" />
                         
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Mata Kuliah &amp; BK"
+                        android:text="@string/ui_mata_kuliah_amp_bk_8"
                         android:textStyle="bold"
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"/>
@@ -155,7 +161,10 @@
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:strokeWidth="0dp">
+                app:strokeWidth="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
                 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -167,13 +176,13 @@
                     <ImageView
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:src="@android:drawable/ic_menu_share"
+                        android:src="@drawable/ic_dashboard_map"
                         app:tint="?attr/colorPrimary" />
                         
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pemetaan (Mapping)"
+                        android:text="@string/ui_pemetaan_mapping_9"
                         android:textStyle="bold"
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"/>
@@ -189,7 +198,10 @@
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:strokeWidth="0dp">
+                app:strokeWidth="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
                 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -201,13 +213,13 @@
                     <ImageView
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:src="@android:drawable/ic_menu_edit"
+                        android:src="@drawable/ic_dashboard_edit"
                         app:tint="?attr/colorPrimary" />
                         
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="RPS &amp; Sub-CPMK"
+                        android:text="@string/ui_rps_amp_sub_cpmk_10"
                         android:textStyle="bold"
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"/>
@@ -223,7 +235,10 @@
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:strokeWidth="0dp">
+                app:strokeWidth="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
                 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -235,13 +250,13 @@
                     <ImageView
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:src="@android:drawable/ic_menu_my_calendar"
+                        android:src="@drawable/ic_dashboard_calendar"
                         app:tint="?attr/colorPrimary" />
                         
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Rencana Tugas"
+                        android:text="@string/ui_rencana_tugas_11"
                         android:textStyle="bold"
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"/>
@@ -257,7 +272,10 @@
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:strokeWidth="0dp">
+                app:strokeWidth="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
                 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -269,13 +287,13 @@
                     <ImageView
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:src="@android:drawable/ic_menu_sort_by_size"
+                        android:src="@drawable/ic_dashboard_assessment"
                         app:tint="?attr/colorPrimary" />
                         
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hasil Asesmen"
+                        android:text="@string/ui_hasil_asesmen_12"
                         android:textStyle="bold"
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"/>
@@ -291,7 +309,10 @@
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:strokeWidth="0dp">
+                app:strokeWidth="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -303,13 +324,13 @@
                     <ImageView
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:src="@android:drawable/ic_menu_manage"
+                        android:src="@drawable/ic_dashboard_settings"
                         app:tint="?attr/colorPrimary" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pengaturan Profil"
+                        android:text="@string/ui_pengaturan_profil_13"
                         android:textStyle="bold"
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"/>
@@ -325,7 +346,10 @@
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:strokeWidth="0dp">
+                app:strokeWidth="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -337,13 +361,13 @@
                     <ImageView
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:src="@android:drawable/ic_dialog_map"
+                        android:src="@drawable/ic_dashboard_location"
                         app:tint="?attr/colorPrimary" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Lokasi Kehadiran"
+                        android:text="@string/ui_lokasi_kehadiran_14"
                         android:textStyle="bold"
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"/>
@@ -359,7 +383,10 @@
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:strokeWidth="0dp">
+                app:strokeWidth="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -371,13 +398,13 @@
                     <ImageView
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:src="@android:drawable/ic_menu_agenda"
+                        android:src="@drawable/ic_dashboard_note"
                         app:tint="?attr/colorPrimary" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Catatan (Offline)"
+                        android:text="@string/ui_catatan_offline_15"
                         android:textStyle="bold"
                         android:layout_marginTop="12dp"
                         android:textAlignment="center"/>

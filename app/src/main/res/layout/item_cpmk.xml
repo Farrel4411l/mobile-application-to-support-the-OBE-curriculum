@@ -26,10 +26,10 @@
                 android:id="@+id/tvKodeCpmk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CPMK-IF001-1"
+                android:text="@string/ui_cpmk_if001_1_43"
                 android:textColor="?attr/colorPrimary"
                 android:textStyle="bold"
-                android:background="#EAF2FF"
+                android:background="@drawable/bg_pill"
                 android:paddingHorizontal="8dp"
                 android:paddingVertical="4dp" />
                 
@@ -37,9 +37,9 @@
                 android:id="@+id/tvKorelasiCpl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="→ CPL01"
+                android:text="@string/ui_cpl01_44"
                 android:layout_marginStart="8dp"
-                android:textColor="#667085"
+                android:textColor="?attr/colorOnSurfaceVariant"
                 android:textSize="12sp" />
         </LinearLayout>
 
@@ -47,10 +47,10 @@
             android:id="@+id/tvDeskripsiCpmk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mahasiswa mampu menjelaskan konsep..."
+            android:text="@string/ui_mahasiswa_mampu_menjelaskan_ko_45"
             android:textSize="14sp"
             android:layout_marginTop="8dp"
-            android:textColor="#172033" />
+            android:textColor="?attr/colorOnSurface" />
 
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

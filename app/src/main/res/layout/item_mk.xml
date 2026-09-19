@@ -19,10 +19,10 @@
             android:id="@+id/tvNamaMk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pemrograman Mobile"
+            android:text="@string/ui_pemrograman_mobile_52"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="#172033" />
+            android:textColor="?attr/colorOnSurface" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,10 +34,10 @@
                 android:id="@+id/tvSks"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3 SKS"
-                android:textColor="#667085"
+                android:text="@string/ui_3_sks_53"
+                android:textColor="?attr/colorOnSurfaceVariant"
                 android:textSize="14sp"
-                android:background="#EAF2FF"
+                android:background="@drawable/bg_pill"
                 android:paddingHorizontal="8dp"
                 android:paddingVertical="4dp" />
 
@@ -45,11 +45,11 @@
                 android:id="@+id/tvSemester"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Semester 5"
-                android:textColor="#667085"
+                android:text="@string/ui_semester_5_54"
+                android:textColor="?attr/colorOnSurfaceVariant"
                 android:textSize="14sp"
                 android:layout_marginStart="8dp"
-                android:background="#EAF2FF"
+                android:background="@drawable/bg_pill"
                 android:paddingHorizontal="8dp"
                 android:paddingVertical="4dp" />
 
@@ -57,12 +57,12 @@
                 android:id="@+id/tvKodeMk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="IF301"
+                android:text="@string/ui_if301_55"
                 android:textColor="?attr/colorPrimary"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 android:layout_marginStart="8dp"
-                android:background="#EAF2FF"
+                android:background="@drawable/bg_pill"
                 android:paddingHorizontal="8dp"
                 android:paddingVertical="4dp" />
         </LinearLayout>

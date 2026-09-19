@@ -26,10 +26,10 @@
                 android:id="@+id/tvRpsMkId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SI301"
+                android:text="@string/ui_si301_61"
                 android:textColor="?attr/colorPrimary"
                 android:textStyle="bold"
-                android:background="#EAF2FF"
+                android:background="@drawable/bg_pill"
                 android:paddingHorizontal="8dp"
                 android:paddingVertical="4dp" />
                 
@@ -42,7 +42,7 @@
                 android:id="@+id/tvRpsStatus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Approved"
+                android:text="@string/ui_approved_62"
                 android:textColor="#388E3C"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -55,26 +55,26 @@
             android:id="@+id/tvRpsDosen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dr. Dosen Pengampu"
+            android:text="@string/ui_dr_dosen_pengampu_63"
             android:textSize="16sp"
             android:textStyle="bold"
             android:layout_marginTop="12dp"
-            android:textColor="#172033" />
+            android:textColor="?attr/colorOnSurface" />
             
         <TextView
             android:id="@+id/tvRpsTanggal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Disusun: 2026-09-12"
+            android:text="@string/ui_disusun_2026_09_12_64"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
-            android:textColor="#667085" />
+            android:textColor="?attr/colorOnSurfaceVariant" />
             
         <TextView
             android:id="@+id/tvRpsDesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Deskripsi mata kuliah..."
+            android:text="@string/ui_deskripsi_mata_kuliah_65"
             android:textSize="14sp"
             android:layout_marginTop="12dp"
             android:textColor="#444"

@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7FB">
+    android:background="?android:attr/colorBackground">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="Catatan Pribadi (Offline)"
+            app:title="@string/ui_title_catatan_pribadi_offline_107"
             app:titleTextColor="@android:color/white"
             app:navigationIconTint="@android:color/white" />
     </com.google.android.material.appbar.AppBarLayout>
@@ -30,7 +30,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Tulis catatan baru..."
+            android:hint="@string/ui_tulis_catatan_baru_26"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginBottom="8dp">
 
@@ -48,13 +48,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:text="Simpan Catatan"
+            android:text="@string/ui_simpan_catatan_27"
             android:layout_marginBottom="16dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Daftar Catatan Tersimpan:"
+            android:text="@string/ui_daftar_catatan_tersimpan_28"
             android:textStyle="bold"
             android:textSize="16sp"
             android:layout_marginBottom="8dp"/>

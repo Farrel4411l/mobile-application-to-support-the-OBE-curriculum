@@ -20,10 +20,10 @@
             android:id="@+id/tvId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ID"
+            android:text="@string/ui_id_46"
             android:textColor="?attr/colorPrimary"
             android:textStyle="bold"
-            android:background="#EAF2FF"
+            android:background="@drawable/bg_pill"
             android:paddingHorizontal="8dp"
             android:paddingVertical="4dp" />
             
@@ -31,10 +31,10 @@
             android:id="@+id/tvDesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Deskripsi..."
+            android:text="@string/ui_deskripsi_47"
             android:textSize="14sp"
             android:layout_marginTop="8dp"
-            android:textColor="#172033" />
+            android:textColor="?attr/colorOnSurface" />
 
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
